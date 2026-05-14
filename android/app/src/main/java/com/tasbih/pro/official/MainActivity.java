@@ -1,4 +1,4 @@
-package com.tasbih.premium.pro;
+package com.tasbih.pro.official;
 
 import com.getcapacitor.BridgeActivity;
 
