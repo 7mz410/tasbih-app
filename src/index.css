@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Amiri", serif;
+  --font-sans: "IBM Plex Sans Arabic", sans-serif;
+}
+
+body {
+  @apply font-sans;
+  background-color: #f8f9fa;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom shadow for mobile feel */
+.shadow-ios {
+  box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* Hide scrollbar for cleaner look */
+::-webkit-scrollbar {
+  display: none;
+}

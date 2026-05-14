@@ -1,0 +1,6 @@
+{
+  "name": "المسبحة الإلكترونية - Tasbih",
+  "description": "مسبحة إسلامية بسيطة وأنيقة لمتابعة الأذكار والاستغفار.",
+  "requestFramePermissions": ["vibrate"],
+  "majorCapabilities": []
+}
